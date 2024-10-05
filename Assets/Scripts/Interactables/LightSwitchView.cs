@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using UnityEditor.MPE;
 using UnityEngine;
 
 public class LightSwitchView : MonoBehaviour, IInteractable
