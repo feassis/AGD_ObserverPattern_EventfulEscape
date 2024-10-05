@@ -13,6 +13,7 @@ public class SkullDropEvent : MonoBehaviour
             OnSkullDrop();
             GameService.Instance.GetSoundView().PlaySoundEffects(soundToPlay);
             GetComponent<Collider>().enabled = false;
+            EventService.Instance.OnSkullShower.InvokeEvent();
         }
     }
 
