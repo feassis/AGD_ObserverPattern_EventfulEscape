@@ -25,6 +25,11 @@ public class SoundView : MonoBehaviour
         }
     }
 
+    public void StopSoundEffects()
+    {
+        audioEffects.Stop();
+    }
+
     private void playbackgroundMusic(SoundType soundType, bool loopSound = false)
     {
         AudioClip clip = getSoundClip(soundType);

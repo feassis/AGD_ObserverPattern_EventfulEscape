@@ -21,6 +21,8 @@ public class EventService
     public EventController<int> OnPotionDrink {  get; private set; }
     public EventController OnDollRotationStart { get; private set; }
     public EventController OnDollRotationEnded { get; private set; }
+    public EventController OnWhisperingStart { get; private set; }
+    public EventController OnWhisperingEnded { get; private set; }
 
     public EventController OnPaintingChangeEvent { get; private set; }
 
@@ -38,6 +40,8 @@ public class EventService
         OnDollRotationStart = new EventController();
         OnDollRotationEnded = new EventController();
         OnPaintingChangeEvent = new EventController();
+        OnWhisperingStart = new EventController();
+        OnWhisperingEnded = new EventController();
 
         PlayerEscapedEvent = new EventController();
         PlayerDeathEvent = new EventController();

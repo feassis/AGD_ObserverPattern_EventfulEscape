@@ -3137,6 +3137,76 @@ MonoBehaviour:
   - {fileID: 1022483630}
   - {fileID: 10286545}
   soundType: 1
+  flickringLights:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -6.8170633
+      outSlope: -6.8170633
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.09583333
+      value: 0.3466981
+      inSlope: -2.119789
+      outSlope: -2.119789
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24121699
+      value: 0.7214224
+      inSlope: 0.6653585
+      outSlope: 0.6653585
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5635174
+      value: 0.31958836
+      inSlope: 0.7953624
+      outSlope: 0.7953624
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7428298
+      value: 0.8283861
+      inSlope: -1.3077505
+      outSlope: -1.3077505
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.87000185
+      value: 0.13491762
+      inSlope: 0.60079026
+      outSlope: 0.60079026
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 6.654575
+      outSlope: 6.654575
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flickeringDuration: 2
 --- !u!65 &138078553
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3348,13 +3418,82 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightsources:
-  - {fileID: 0}
   - {fileID: 1222450886}
   - {fileID: 1518426175}
   - {fileID: 1720939466}
   - {fileID: 1927930670}
   - {fileID: 1590295882}
   soundType: 1
+  flickringLights:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -6.8170633
+      outSlope: -6.8170633
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.09583333
+      value: 0.3466981
+      inSlope: -2.119789
+      outSlope: -2.119789
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24121699
+      value: 0.7214224
+      inSlope: 0.6653585
+      outSlope: 0.6653585
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5635174
+      value: 0.31958836
+      inSlope: 0.7953624
+      outSlope: 0.7953624
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7428298
+      value: 0.8283861
+      inSlope: -1.3077505
+      outSlope: -1.3077505
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.87000185
+      value: 0.13491762
+      inSlope: 0.60079026
+      outSlope: 0.60079026
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 6.654575
+      outSlope: 6.654575
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flickeringDuration: 2
 --- !u!65 &144565898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7859,6 +7998,76 @@ MonoBehaviour:
   - {fileID: 726256271}
   - {fileID: 2129061688}
   soundType: 1
+  flickringLights:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -6.8170633
+      outSlope: -6.8170633
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.09583333
+      value: 0.3466981
+      inSlope: -2.119789
+      outSlope: -2.119789
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24121699
+      value: 0.7214224
+      inSlope: 0.6653585
+      outSlope: 0.6653585
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5635174
+      value: 0.31958836
+      inSlope: 0.7953624
+      outSlope: 0.7953624
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7428298
+      value: 0.8283861
+      inSlope: -1.3077505
+      outSlope: -1.3077505
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.87000185
+      value: 0.13491762
+      inSlope: 0.60079026
+      outSlope: 0.60079026
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 6.654575
+      outSlope: 6.654575
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flickeringDuration: 2
 --- !u!65 &304281331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9364,6 +9573,76 @@ MonoBehaviour:
   - {fileID: 1955496208}
   - {fileID: 208383514}
   soundType: 1
+  flickringLights:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -6.8170633
+      outSlope: -6.8170633
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.09583333
+      value: 0.3466981
+      inSlope: -2.119789
+      outSlope: -2.119789
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24121699
+      value: 0.7214224
+      inSlope: 0.6653585
+      outSlope: 0.6653585
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5635174
+      value: 0.31958836
+      inSlope: 0.7953624
+      outSlope: 0.7953624
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7428298
+      value: 0.8283861
+      inSlope: -1.3077505
+      outSlope: -1.3077505
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.87000185
+      value: 0.13491762
+      inSlope: 0.60079026
+      outSlope: 0.60079026
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 6.654575
+      outSlope: 6.654575
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flickeringDuration: 2
 --- !u!65 &360973720
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10689,6 +10968,76 @@ MonoBehaviour:
   - {fileID: 1927930670}
   - {fileID: 1590295882}
   soundType: 1
+  flickringLights:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -6.8170633
+      outSlope: -6.8170633
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.09583333
+      value: 0.3466981
+      inSlope: -2.119789
+      outSlope: -2.119789
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24121699
+      value: 0.7214224
+      inSlope: 0.6653585
+      outSlope: 0.6653585
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5635174
+      value: 0.31958836
+      inSlope: 0.7953624
+      outSlope: 0.7953624
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7428298
+      value: 0.8283861
+      inSlope: -1.3077505
+      outSlope: -1.3077505
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.87000185
+      value: 0.13491762
+      inSlope: 0.60079026
+      outSlope: 0.60079026
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 6.654575
+      outSlope: 6.654575
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flickeringDuration: 2
 --- !u!65 &441533230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16102,6 +16451,76 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lightsources: []
   soundType: 1
+  flickringLights:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -6.8170633
+      outSlope: -6.8170633
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.09583333
+      value: 0.3466981
+      inSlope: -2.119789
+      outSlope: -2.119789
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24121699
+      value: 0.7214224
+      inSlope: 0.6653585
+      outSlope: 0.6653585
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5635174
+      value: 0.31958836
+      inSlope: 0.7953624
+      outSlope: 0.7953624
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7428298
+      value: 0.8283861
+      inSlope: -1.3077505
+      outSlope: -1.3077505
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.87000185
+      value: 0.13491762
+      inSlope: 0.60079026
+      outSlope: 0.60079026
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 6.654575
+      outSlope: 6.654575
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flickeringDuration: 2
 --- !u!65 &696440611
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27525,6 +27944,76 @@ MonoBehaviour:
   - {fileID: 367447010}
   - {fileID: 1220019802}
   soundType: 1
+  flickringLights:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -6.8170633
+      outSlope: -6.8170633
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.09583333
+      value: 0.3466981
+      inSlope: -2.119789
+      outSlope: -2.119789
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24121699
+      value: 0.7214224
+      inSlope: 0.6653585
+      outSlope: 0.6653585
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5635174
+      value: 0.31958836
+      inSlope: 0.7953624
+      outSlope: 0.7953624
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7428298
+      value: 0.8283861
+      inSlope: -1.3077505
+      outSlope: -1.3077505
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.87000185
+      value: 0.13491762
+      inSlope: 0.60079026
+      outSlope: 0.60079026
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 6.654575
+      outSlope: 6.654575
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flickeringDuration: 2
 --- !u!65 &1209788480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28741,7 +29230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swingAngle: 90
-  keysRequiredToOpen: 3
+  keysRequiredToOpen: 5
 --- !u!65 &1268489306
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29886,6 +30375,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4421731146962150310}
+  - {fileID: 1486194894}
   m_Father: {fileID: 557826826}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -33069,6 +33559,79 @@ Transform:
   m_Father: {fileID: 2138995275}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1486194893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1486194894}
+  - component: {fileID: 1486194897}
+  - component: {fileID: 1486194896}
+  - component: {fileID: 1486194895}
+  m_Layer: 0
+  m_Name: HallWhisperingEvent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1486194894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486194893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22.61, y: 0, z: -10.28}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1302298454}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1486194895
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486194893}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.044218, y: 1.7251302, z: 2.5629148}
+  m_Center: {x: -6.989455, y: -0.36256522, z: -0.36204672}
+--- !u!65 &1486194896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486194893}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.6865044, y: 1.8110838, z: 7.0597663}
+  m_Center: {x: 0.06913185, y: -0.40554214, z: 1.9707773}
+--- !u!114 &1486194897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486194893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 198f09adfc2e4fe4b9ce920f855bd2d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundCooldown: 78
 --- !u!1 &1487100713
 GameObject:
   m_ObjectHideFlags: 0
@@ -33554,6 +34117,76 @@ MonoBehaviour:
   - {fileID: 1665766143}
   - {fileID: 2040323469}
   soundType: 1
+  flickringLights:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -6.8170633
+      outSlope: -6.8170633
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.09583333
+      value: 0.3466981
+      inSlope: -2.119789
+      outSlope: -2.119789
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24121699
+      value: 0.7214224
+      inSlope: 0.6653585
+      outSlope: 0.6653585
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5635174
+      value: 0.31958836
+      inSlope: 0.7953624
+      outSlope: 0.7953624
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7428298
+      value: 0.8283861
+      inSlope: -1.3077505
+      outSlope: -1.3077505
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.87000185
+      value: 0.13491762
+      inSlope: 0.60079026
+      outSlope: 0.60079026
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 6.654575
+      outSlope: 6.654575
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flickeringDuration: 2
 --- !u!65 &1521502778
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39153,6 +39786,76 @@ MonoBehaviour:
   - {fileID: 1927930670}
   - {fileID: 1590295882}
   soundType: 1
+  flickringLights:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -6.8170633
+      outSlope: -6.8170633
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.09583333
+      value: 0.3466981
+      inSlope: -2.119789
+      outSlope: -2.119789
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24121699
+      value: 0.7214224
+      inSlope: 0.6653585
+      outSlope: 0.6653585
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5635174
+      value: 0.31958836
+      inSlope: 0.7953624
+      outSlope: 0.7953624
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7428298
+      value: 0.8283861
+      inSlope: -1.3077505
+      outSlope: -1.3077505
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.87000185
+      value: 0.13491762
+      inSlope: 0.60079026
+      outSlope: 0.60079026
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 6.654575
+      outSlope: 6.654575
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flickeringDuration: 2
 --- !u!65 &1814933114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40996,6 +41699,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904399022}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1905448661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1905448662}
+  m_Layer: 0
+  m_Name: Potions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1905448662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905448661}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.02, y: 0, z: -6.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8322673241722694876}
+  m_Father: {fileID: 2138995275}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1912500326
 GameObject:
   m_ObjectHideFlags: 0
@@ -41174,6 +41909,76 @@ MonoBehaviour:
   - {fileID: 681655001}
   - {fileID: 1553369413}
   soundType: 1
+  flickringLights:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -6.8170633
+      outSlope: -6.8170633
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.09583333
+      value: 0.3466981
+      inSlope: -2.119789
+      outSlope: -2.119789
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24121699
+      value: 0.7214224
+      inSlope: 0.6653585
+      outSlope: 0.6653585
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5635174
+      value: 0.31958836
+      inSlope: 0.7953624
+      outSlope: 0.7953624
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7428298
+      value: 0.8283861
+      inSlope: -1.3077505
+      outSlope: -1.3077505
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.87000185
+      value: 0.13491762
+      inSlope: 0.60079026
+      outSlope: 0.60079026
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 6.654575
+      outSlope: 6.654575
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flickeringDuration: 2
 --- !u!65 &1915313888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41720,6 +42525,76 @@ MonoBehaviour:
   lightsources:
   - {fileID: 445115625}
   soundType: 1
+  flickringLights:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -6.8170633
+      outSlope: -6.8170633
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.09583333
+      value: 0.3466981
+      inSlope: -2.119789
+      outSlope: -2.119789
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24121699
+      value: 0.7214224
+      inSlope: 0.6653585
+      outSlope: 0.6653585
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5635174
+      value: 0.31958836
+      inSlope: 0.7953624
+      outSlope: 0.7953624
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7428298
+      value: 0.8283861
+      inSlope: -1.3077505
+      outSlope: -1.3077505
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.87000185
+      value: 0.13491762
+      inSlope: 0.60079026
+      outSlope: 0.60079026
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 6.654575
+      outSlope: 6.654575
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flickeringDuration: 2
 --- !u!65 &1929683160
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46704,6 +47579,7 @@ Transform:
   - {fileID: 728223225}
   - {fileID: 1462099002}
   - {fileID: 481790048}
+  - {fileID: 1905448662}
   m_Father: {fileID: 6752750673420198866}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46921,7 +47797,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6377512551950996150, guid: 76f21b6cac7249047a31065e5fdabc58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.288
+      value: -0.089
       objectReference: {fileID: 0}
     - target: {fileID: 6377512551950996150, guid: 76f21b6cac7249047a31065e5fdabc58, type: 3}
       propertyPath: m_LocalPosition.z
@@ -47282,6 +48158,382 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].time
+      value: 0.09583333
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].time
+      value: 0.24121699
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].time
+      value: 0.5635174
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].time
+      value: 0.7428298
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].time
+      value: 0.87000185
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].value
+      value: 0.3466981
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].value
+      value: 0.7214224
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].value
+      value: 0.31958836
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].value
+      value: 0.8283861
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].value
+      value: 0.13491762
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].inSlope
+      value: -6.8170633
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].inSlope
+      value: -2.119789
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].inSlope
+      value: 0.6653585
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].inSlope
+      value: 0.7953624
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].inSlope
+      value: -1.3077505
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].inSlope
+      value: 0.60079026
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].inSlope
+      value: 6.654575
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].outSlope
+      value: -6.8170633
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].outSlope
+      value: -2.119789
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].outSlope
+      value: 0.6653585
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].outSlope
+      value: 0.7953624
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].outSlope
+      value: -1.3077505
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].outSlope
+      value: 0.60079026
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].outSlope
+      value: 6.654575
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 667724600942481522, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].time
+      value: 0.09583333
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].time
+      value: 0.24121699
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].time
+      value: 0.5635174
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].time
+      value: 0.7428298
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].time
+      value: 0.87000185
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].value
+      value: 0.3466981
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].value
+      value: 0.7214224
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].value
+      value: 0.31958836
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].value
+      value: 0.8283861
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].value
+      value: 0.13491762
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].inSlope
+      value: -6.8170633
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].inSlope
+      value: -2.119789
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].inSlope
+      value: 0.6653585
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].inSlope
+      value: 0.7953624
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].inSlope
+      value: -1.3077505
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].inSlope
+      value: 0.60079026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].inSlope
+      value: 6.654575
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].outSlope
+      value: -6.8170633
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].outSlope
+      value: -2.119789
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].outSlope
+      value: 0.6653585
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].outSlope
+      value: 0.7953624
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].outSlope
+      value: -1.3077505
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].outSlope
+      value: 0.60079026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].outSlope
+      value: 6.654575
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196900891731812331, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
     - target: {fileID: 3103533181166752916, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -47365,6 +48617,194 @@ PrefabInstance:
     - target: {fileID: 8410985323525627660, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].time
+      value: 0.09583333
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].time
+      value: 0.24121699
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].time
+      value: 0.5635174
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].time
+      value: 0.7428298
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].time
+      value: 0.87000185
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].value
+      value: 0.3466981
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].value
+      value: 0.7214224
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].value
+      value: 0.31958836
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].value
+      value: 0.8283861
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].value
+      value: 0.13491762
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].inSlope
+      value: -6.8170633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].inSlope
+      value: -2.119789
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].inSlope
+      value: 0.6653585
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].inSlope
+      value: 0.7953624
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].inSlope
+      value: -1.3077505
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].inSlope
+      value: 0.60079026
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].inSlope
+      value: 6.654575
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].outSlope
+      value: -6.8170633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].outSlope
+      value: -2.119789
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].outSlope
+      value: 0.6653585
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].outSlope
+      value: 0.7953624
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].outSlope
+      value: -1.3077505
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].outSlope
+      value: 0.60079026
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].outSlope
+      value: 6.654575
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[2].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[3].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[4].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[5].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: flickringLights.m_Curve.Array.data[6].tangentMode
+      value: 34
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6727423909526550301, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
@@ -47483,6 +48923,68 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &8322673241722694875
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1905448662}
+    m_Modifications:
+    - target: {fileID: 3281293105248671752, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+      propertyPath: m_Name
+      value: Potion
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478883907634840863, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478883907634840863, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.851
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478883907634840863, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.532
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478883907634840863, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.324
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478883907634840863, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478883907634840863, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478883907634840863, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478883907634840863, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478883907634840863, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478883907634840863, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478883907634840863, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+--- !u!4 &8322673241722694876 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5478883907634840863, guid: 44b99386b3bba9d42b6b19a2079d2512, type: 3}
+  m_PrefabInstance: {fileID: 8322673241722694875}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9192946658741177749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47504,15 +49006,23 @@ PrefabInstance:
       objectReference: {fileID: 8225950124344110253}
     - target: {fileID: 9192946658940668406, guid: 5fb9d3aeda3456c4c884e223e16fb778, type: 3}
       propertyPath: audioList.Array.size
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 9192946658940668406, guid: 5fb9d3aeda3456c4c884e223e16fb778, type: 3}
       propertyPath: audioList.Array.data[10].audio
       value: 
       objectReference: {fileID: 8300000, guid: 7ad53bbae297c45bfaa60fc6648f22bc, type: 3}
     - target: {fileID: 9192946658940668406, guid: 5fb9d3aeda3456c4c884e223e16fb778, type: 3}
+      propertyPath: audioList.Array.data[11].audio
+      value: 
+      objectReference: {fileID: 8300000, guid: 6c197536b1590e94fbda74e2364ec73e, type: 3}
+    - target: {fileID: 9192946658940668406, guid: 5fb9d3aeda3456c4c884e223e16fb778, type: 3}
       propertyPath: audioList.Array.data[10].soundType
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9192946658940668406, guid: 5fb9d3aeda3456c4c884e223e16fb778, type: 3}
+      propertyPath: audioList.Array.data[11].soundType
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 9192946658940668407, guid: 5fb9d3aeda3456c4c884e223e16fb778, type: 3}
       propertyPath: m_RootOrder

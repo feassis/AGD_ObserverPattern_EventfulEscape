@@ -20,6 +20,7 @@ public class ChangingPaintEvent : MonoBehaviour
 
             RegularImage.SetActive(false);
             CreepyImage.SetActive(true);
+            GameService.Instance.GetSoundView().StopSoundEffects();
             GameService.Instance.GetSoundView().PlaySoundEffects(SoundType.Scream);
 
             EventService.Instance.OnPaintingChangeEvent.InvokeEvent();
