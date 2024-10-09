@@ -25,6 +25,7 @@ public class PlayerController
         EventService.Instance.OnLightSwitchToggled.AddListener(onLightsToggled);
         EventService.Instance.OnKeyPickedUp.AddListener(OnKeyPickedUp);
         EventService.Instance.PlayerEscapedEvent.AddListener(DisableControls);
+
     }
     ~PlayerController()
     {

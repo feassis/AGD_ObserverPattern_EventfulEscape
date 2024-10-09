@@ -5,14 +5,20 @@ public class PlayerSanity : MonoBehaviour
     [SerializeField] private float sanityLevel = 100.0f;
     [SerializeField] private float sanityDropRate = 0.2f;
     [SerializeField] private float sanityDropAmountPerEvent = 10f;
+    [SerializeField] private float sanityDropMultiplierPerEvent = 3f;
     private float maxSanity;
     private PlayerController playerController;
+
+    private bool isUnderSupernaturalEvent;
 
     private void OnEnable()
     {
         EventService.Instance.OnRatRush.AddListener(OnSupernaturalEvent);   
         EventService.Instance.OnSkullShower.AddListener(OnSupernaturalEvent);
         EventService.Instance.OnPotionDrink.AddListener(OnDrankPotion);
+        EventService.Instance.OnDollRotationStart.AddListener(IsOnContinuosSuperNAturalEvent);
+        EventService.Instance.OnDollRotationEnded.AddListener(ExitedContinuosSuperNAturalEvent);
+        EventService.Instance.OnPaintingChangeEvent.AddListener(OnSupernaturalEvent);
     }
 
     private void OnDisable()
@@ -20,6 +26,9 @@ public class PlayerSanity : MonoBehaviour
         EventService.Instance.OnRatRush.RemoveListener(OnSupernaturalEvent);
         EventService.Instance.OnSkullShower.RemoveListener(OnSupernaturalEvent);
         EventService.Instance.OnPotionDrink.RemoveListener(OnDrankPotion);
+        EventService.Instance.OnDollRotationStart.RemoveListener(IsOnContinuosSuperNAturalEvent);
+        EventService.Instance.OnDollRotationEnded.RemoveListener(ExitedContinuosSuperNAturalEvent);
+        EventService.Instance.OnPaintingChangeEvent.RemoveListener(OnSupernaturalEvent);
     }
 
     private void Start()
@@ -44,7 +53,8 @@ public class PlayerSanity : MonoBehaviour
         {
             sanityDrop *= 10f;
         }
-        return sanityDrop;
+
+        return isUnderSupernaturalEvent ?  sanityDrop * sanityDropMultiplierPerEvent : sanityDrop;
     }
 
     private void increaseSanity(float amountToDecrease)
@@ -70,6 +80,16 @@ public class PlayerSanity : MonoBehaviour
     private void OnSupernaturalEvent()
     {
         increaseSanity(sanityDropAmountPerEvent);
+    }
+
+    private void IsOnContinuosSuperNAturalEvent()
+    {
+        isUnderSupernaturalEvent = true;
+    }
+
+    private void ExitedContinuosSuperNAturalEvent()
+    {
+        isUnderSupernaturalEvent = false;
     }
 
     private void OnDrankPotion(int potionEffect)

@@ -8,9 +8,14 @@ public class PlayerView : MonoBehaviour
 {
     private Rigidbody playerRigidbody;
     private PlayerController playerController;
+    public Camera PlayerCamera { get; private set; }
 
-    private void Start() => playerRigidbody = GetComponent<Rigidbody>();
-
+    private void Start()
+    {
+        playerRigidbody = GetComponent<Rigidbody>();
+        PlayerCamera = GetComponentInChildren<Camera>();
+    }
+      
     private void Update()
     {
         playerController.Move(playerRigidbody, transform);
