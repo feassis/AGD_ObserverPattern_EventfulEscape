@@ -21,6 +21,9 @@ public class PlayerSanity : MonoBehaviour
         EventService.Instance.OnPaintingChangeEvent.AddListener(OnSupernaturalEvent);
         EventService.Instance.OnWhisperingStart.AddListener(IsOnContinuosSuperNAturalEvent);
         EventService.Instance.OnWhisperingEnded.AddListener(ExitedContinuosSuperNAturalEvent);
+        EventService.Instance.OnFloatingEventStart.AddListener(IsOnContinuosSuperNAturalEvent);
+        EventService.Instance.OnFloatingEventEnd.AddListener(ExitedContinuosSuperNAturalEvent);
+        EventService.Instance.OnDollJumpScare.AddListener(OnSupernaturalEvent);
     }
 
     private void OnDisable()
@@ -31,6 +34,11 @@ public class PlayerSanity : MonoBehaviour
         EventService.Instance.OnDollRotationStart.RemoveListener(IsOnContinuosSuperNAturalEvent);
         EventService.Instance.OnDollRotationEnded.RemoveListener(ExitedContinuosSuperNAturalEvent);
         EventService.Instance.OnPaintingChangeEvent.RemoveListener(OnSupernaturalEvent);
+
+        EventService.Instance.OnFloatingEventStart.RemoveListener(IsOnContinuosSuperNAturalEvent);
+        EventService.Instance.OnFloatingEventEnd.RemoveListener(ExitedContinuosSuperNAturalEvent);
+
+        EventService.Instance.OnDollJumpScare.RemoveListener(OnSupernaturalEvent);
 
         EventService.Instance.OnWhisperingStart.RemoveListener(IsOnContinuosSuperNAturalEvent);
         EventService.Instance.OnWhisperingEnded.RemoveListener(ExitedContinuosSuperNAturalEvent);

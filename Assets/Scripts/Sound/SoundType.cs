@@ -12,4 +12,5 @@
     DrinkPotion,
     Scream,
     WhispetingSounds,
+    HeavyBreath
 }

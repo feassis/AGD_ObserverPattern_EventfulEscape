@@ -24,6 +24,10 @@ public class EventService
     public EventController OnWhisperingStart { get; private set; }
     public EventController OnWhisperingEnded { get; private set; }
 
+    public EventController OnFloatingEventStart { get; private set; }
+    public EventController OnFloatingEventEnd { get; private set; }
+    public EventController OnDollJumpScare { get; private set; }
+
     public EventController OnPaintingChangeEvent { get; private set; }
 
     public EventController PlayerEscapedEvent { get; private set; }
@@ -42,6 +46,9 @@ public class EventService
         OnPaintingChangeEvent = new EventController();
         OnWhisperingStart = new EventController();
         OnWhisperingEnded = new EventController();
+        OnFloatingEventEnd = new EventController();
+        OnFloatingEventStart = new EventController();
+        OnDollJumpScare = new EventController();    
 
         PlayerEscapedEvent = new EventController();
         PlayerDeathEvent = new EventController();

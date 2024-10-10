@@ -29,6 +29,7 @@ public class GameUIView : MonoBehaviour
         EventService.Instance.OnRatRush.AddListener(SetRedVignette);
         EventService.Instance.OnSkullShower.AddListener(SetRedVignette);
         EventService.Instance.OnPaintingChangeEvent.AddListener(SetRedVignette);
+        EventService.Instance.OnDollJumpScare.AddListener(SetRedVignette);
 
         tryAgainButton.onClick.AddListener(OnTryAgainButtonClicked);
         quitButton.onClick.AddListener(OnQuitButtonClicked);
@@ -44,10 +45,11 @@ public class GameUIView : MonoBehaviour
         EventService.Instance.OnRatRush.RemoveListener(SetRedVignette);
         EventService.Instance.OnSkullShower.RemoveListener(SetRedVignette);
         EventService.Instance.OnPaintingChangeEvent.RemoveListener(SetRedVignette);
+        EventService.Instance.OnDollJumpScare.RemoveListener(SetRedVignette);
     }
 
     public void UpdateInsanity(float playerSanity) => insanityImage.rectTransform.localScale = new Vector3(1, playerSanity, 1);
-    private void OnKeyEquipped(int keys) => keysFoundText.SetText($"Keys Found: {keys}/3");
+    private void OnKeyEquipped(int keys) => keysFoundText.SetText($"Keys Found: {keys}/8");
     private void OnQuitButtonClicked() => Application.Quit();
     private void OnTryAgainButtonClicked() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
