@@ -19,6 +19,7 @@ public class LightSwitchView : MonoBehaviour, IInteractable
         EventService.Instance.OnLightsOffByGhostEvent.AddListener(onLightsOffByGhostEvent);
         EventService.Instance.OnWhisperingStart.AddListener(onWhisperingStart);
         EventService.Instance.OnWhisperingEnded.AddListener(onWhisperingEnded);
+        EventService.Instance.OnDollJumpScare.AddListener(onLightsOffByGhostEvent);
     }
 
     private void OnDisable()
@@ -27,6 +28,7 @@ public class LightSwitchView : MonoBehaviour, IInteractable
         EventService.Instance.OnLightsOffByGhostEvent.RemoveListener(onLightsOffByGhostEvent);
         EventService.Instance.OnWhisperingStart.RemoveListener(onWhisperingStart);
         EventService.Instance.OnWhisperingEnded.RemoveListener(onWhisperingEnded);
+        EventService.Instance.OnDollJumpScare.RemoveListener(onLightsOffByGhostEvent);
     }
 
     private void Start()

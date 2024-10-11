@@ -33,6 +33,8 @@ public class EventService
     public EventController PlayerEscapedEvent { get; private set; }
     public EventController PlayerDeathEvent { get; private set; }
 
+    public EventController<float> OnPlayerInDark { get; private set; }
+
     public EventService()
     {
         OnLightSwitchToggled = new EventController();
@@ -52,5 +54,6 @@ public class EventService
 
         PlayerEscapedEvent = new EventController();
         PlayerDeathEvent = new EventController();
+        OnPlayerInDark = new EventController<float> ();
     }
 }

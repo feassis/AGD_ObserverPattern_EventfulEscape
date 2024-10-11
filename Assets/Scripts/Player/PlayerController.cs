@@ -13,6 +13,8 @@ public class PlayerController
     public int KeysEquipped { get => playerScriptableObject.KeysEquipped; set => playerScriptableObject.KeysEquipped = value; }
     public PlayerState PlayerState { get => playerState; private set => playerState = value; }
 
+    private float timeInDark = 0;
+
     public PlayerController(PlayerView playerView, PlayerScriptableObject playerScriptableObject)
     {
         this.playerView = playerView;
@@ -20,6 +22,7 @@ public class PlayerController
         this.playerScriptableObject = playerScriptableObject;
         this.playerScriptableObject.KeysEquipped = 0;
         playerState = PlayerState.InDark;
+        timeInDark = 0;
 
         EventService.Instance.OnLightsOffByGhostEvent.AddListener(onLightsOffByGhost);
         EventService.Instance.OnLightSwitchToggled.AddListener(onLightsToggled);
@@ -56,6 +59,14 @@ public class PlayerController
 
         playerRigidbody.MoveRotation(rotation);
         playerRigidbody.MovePosition(position);
+    }
+
+    public void InDark()
+    {
+        if (PlayerState != PlayerState.InDark) return;
+        timeInDark += Time.deltaTime;
+
+        EventService.Instance.OnPlayerInDark.InvokeEvent(timeInDark);
     }
 
     public void KillPlayer()

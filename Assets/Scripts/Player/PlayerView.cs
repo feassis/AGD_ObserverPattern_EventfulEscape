@@ -21,6 +21,8 @@ public class PlayerView : MonoBehaviour
         playerController.Move(playerRigidbody, transform);
         playerController.Jump(playerRigidbody, transform);
         playerController.Interact();
+
+        playerController.InDark();
     }
     private void OnTriggerEnter(Collider other)
     {

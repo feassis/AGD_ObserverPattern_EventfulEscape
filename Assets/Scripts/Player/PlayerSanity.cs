@@ -48,6 +48,7 @@ public class PlayerSanity : MonoBehaviour
     {
         maxSanity = sanityLevel;
         playerController = GameService.Instance.GetPlayerController();
+        GameService.Instance.SetPlayerSanity(this);
     }
     void Update()
     {
@@ -109,4 +110,6 @@ public class PlayerSanity : MonoBehaviour
     {
         decreaseSanity(potionEffect);
     }
+
+    public float GetSanityPercentage() => sanityLevel / maxSanity;
 }

@@ -16,10 +16,21 @@ public class GameService : GenericMonoSingleton<GameService>
     [Header("Scriptable Objects")]
     [SerializeField] private PlayerScriptableObject playerScriptableObject;
 
-    private void Start() => playerController = new PlayerController(playerView, playerScriptableObject);
+    public AchivimentService AchivimentService { get; private set; }
 
-    //Todo - Ask Mayank -> Converting all these into properties as {get;private set;} is good or 
-    // we can keep it same for now?
+    private void Start()
+    {
+        playerController = new PlayerController(playerView, playerScriptableObject);
+        AchivimentService = new AchivimentService();
+        AchivimentService.Init(EventService.Instance);
+    }
+       
+    public void SetPlayerSanity(PlayerSanity playerSanity)
+    {
+        PlayerSanity = playerSanity;
+    }
+
+    public PlayerSanity PlayerSanity { get; private set; }
 
     public PlayerController GetPlayerController() => playerController;
     public GameUIView GetGameUI() => gameUIView;

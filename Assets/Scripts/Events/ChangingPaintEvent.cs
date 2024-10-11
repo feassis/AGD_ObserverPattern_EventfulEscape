@@ -24,6 +24,7 @@ public class ChangingPaintEvent : MonoBehaviour
             GameService.Instance.GetSoundView().PlaySoundEffects(SoundType.Scream);
 
             EventService.Instance.OnPaintingChangeEvent.InvokeEvent();
+            GetComponent<Collider>().enabled = false;
         }
     }
 }

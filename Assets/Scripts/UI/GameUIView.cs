@@ -19,6 +19,14 @@ public class GameUIView : MonoBehaviour
     [SerializeField] Button tryAgainButton;
     [SerializeField] Button quitButton;
 
+    [SerializeField] private GameObject keyMasterFill;
+    [SerializeField] private GameObject sanitySaverFill;
+    [SerializeField] private GameObject tormentedSurvivorFill;
+    [SerializeField] private GameObject masterOsShadowsFill;
+
+    [Header("Achieviment UI")]
+    [SerializeField] private AchievimentView achievimentView;
+
     private void OnEnable()
     {
         EventService.Instance.OnKeyPickedUp.AddListener(OnKeyEquipped);
@@ -69,7 +77,14 @@ public class GameUIView : MonoBehaviour
     private void OnPlayerEscaped()
     {
         gameEndText.SetText("You Escaped");
+        GameService.Instance.AchivimentService.DecideAchievimentUI(keyMasterFill, sanitySaverFill, masterOsShadowsFill, tormentedSurvivorFill);
         gameEndPanel.SetActive(true);
+    }
+
+    public void AchievimentUnlocked(string message)
+    {
+        achievimentView.gameObject.SetActive(true);
+        achievimentView.SetPopupText(message);
     }
 }
 
