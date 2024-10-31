@@ -8,7 +8,7 @@ public class DollFollowEvent : MonoBehaviour
     [SerializeField] private Transform dollToRotate;
     [SerializeField] private float rotationSpeed = 180f;
     [SerializeField] private float giggleCoolDown = 1f;
-    [SerializeField] private int keysToDisapearOnDoorOpened = 4;
+    [SerializeField] private int keysToDisapearOnDoorOpened = 5;
 
     private Transform player;
     private Camera cam;
@@ -16,7 +16,7 @@ public class DollFollowEvent : MonoBehaviour
 
     private void OnEnable()
     {
-        EventService.Instance.OnDollRotationStart.AddListener(CheckIfThisDollShouldBeDisabled);
+        EventService.Instance.OnKeyPickedUp.AddListener(CheckIfThisDollShouldBeDisabled);
     }
 
     private void OnDisable()
@@ -98,10 +98,8 @@ public class DollFollowEvent : MonoBehaviour
         return viewportPoint.x >= 0 && viewportPoint.x <= 1 && viewportPoint.y >= 0 && viewportPoint.y <= 1 && viewportPoint.z > 0;
     }
 
-    private void CheckIfThisDollShouldBeDisabled()
+    private void CheckIfThisDollShouldBeDisabled(int keys)
     {
-        int keys = GameService.Instance.GetPlayerController().KeysEquipped;
-
         if(keys == keysToDisapearOnDoorOpened)
         {
             gameObject.SetActive(false);

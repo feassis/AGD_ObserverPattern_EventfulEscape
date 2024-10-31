@@ -10897,7 +10897,7 @@ Light:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 5
-  m_SpotAngle: 150
+  m_SpotAngle: 167
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
@@ -24809,7 +24809,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043162893}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.29, y: 0, z: -0.486}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27979,7 +27979,7 @@ Light:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 5
-  m_SpotAngle: 150
+  m_SpotAngle: 163.7
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
@@ -29279,8 +29279,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241629129}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -29.6973, y: -1.3418, z: -10.7021}
-  m_LocalScale: {x: 0.8272115, y: 1, z: 0.28401205}
+  m_LocalPosition: {x: -29.697, y: -1.342, z: -10.6215}
+  m_LocalScale: {x: 0.8272115, y: 1, z: 0.2821211}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1737092819}
@@ -35638,7 +35638,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563864039}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -25.475, y: -1.3418424, z: -1.3959999}
+  m_LocalPosition: {x: -25.475, y: -1.3418424, z: -1.388}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42096,8 +42096,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885647723}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.95, y: -1.3418, z: -2.7954}
-  m_LocalScale: {x: 0.89791304, y: 1, z: 1.2974707}
+  m_LocalPosition: {x: -33.9374, y: -1.3418, z: -2.7954}
+  m_LocalScale: {x: 0.90042716, y: 1, z: 1.2974707}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 605255710}
@@ -48261,6 +48261,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1462099002}
     m_Modifications:
+    - target: {fileID: 5095428909298300563, guid: 98e6dcc9cf6d5b745a64cea2a8120cad, type: 3}
+      propertyPath: keysToDisapearOnDoorOpened
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6454125672908078425, guid: 98e6dcc9cf6d5b745a64cea2a8120cad, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -48682,7 +48686,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &5620200794608469897
 MonoBehaviour:
   m_ObjectHideFlags: 0

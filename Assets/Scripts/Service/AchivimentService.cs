@@ -20,6 +20,10 @@ public class AchivimentService
 
     public void Init(EventService eventService)
     {
+#if UNITY_EDITOR
+        PlayerPrefs.DeleteAll();
+#endif
+
         this.eventService = eventService;
 
         this.eventService.OnKeyPickedUp.AddListener(onKeyPickedUp);
